@@ -1,0 +1,47 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.main_container{
+    background-color: rgb(255, 255, 255);
+    
+}   
+.nav_bar{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.nav_leftsection{
+    display:flex;
+    align_items:center;
+
+}
+.logo{
+    margin: 10px;
+    width: 60px;
+    height:50px;    
+}
+.logo_text{
+    color: white;
+}
+.nav_rightsection{
+   color: white;
+   align-items: center;
+}
+.about_section{
+    display: flex;
+    gap: 2rem;
+    padding-right: 10px;
+}
+li{
+    list-style: none;
+}
+li:hover{
+    color:blue;
+    cursor: pointer;
+}
+.main_image{
+    width:1930px;
+    height: 700px;
+}
