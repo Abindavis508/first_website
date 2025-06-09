@@ -38,10 +38,33 @@ li{
     list-style: none;
 }
 li:hover{
-    color:blue;
+    color:rgb(172, 172, 172);
     cursor: pointer;
 }
 .main_image{
     width:1930px;
     height: 700px;
+}
+.wrap_content{
+    display:flex;
+    flex-warp:wrap;
+    gap:2rem;
+}
+.grid_image{
+    dispaly:flex;
+    display:grid;
+    grid-template-columns: repeat(3,2fr);
+}
+.image_1{
+    width:300px;
+    height:400px;
+    margin:auto;
+}
+.main_line{
+    margin:auto;
+ 
+}
+.main_line:hover{
+    color: rgb(172, 172, 172);
+    
 }
